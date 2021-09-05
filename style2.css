@@ -1,0 +1,84 @@
+body {
+
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(background.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+
+.box {
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: rgba(3,84,80,0.15);
+	transform: translate(-50%, -50%);
+	border: 2px solid #00FF7F;
+	text-align: center;
+	border-radius: 24px;
+}
+
+.box:hover {
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	box-shadow: 1px 1px 10px 1px black;
+	transition: 0.30s;
+}
+
+.box h1 {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500px;
+}
+
+.Pole {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;	
+	border: 2px solid #00FF7F;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 40px;
+	transition: 0.50s; 
+}
+
+.Pole:hover {
+	width: 230px;	
+	border-color: rgba(77,255,195,0.7);
+	transition: 0.30s;
+}
+
+.Button {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;	
+	border: 2px solid rgba(77,255,195,0.7);
+	padding: 14px 40px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 40px;
+	transition: 0.50px; 
+	cursor: pointer;
+	transition: 0.50s; 
+}	
+.Button:hover {
+	width: 230px;		
+	background: rgba(77,255,195,0.7	);
+	transition: 0.5s;
+}
